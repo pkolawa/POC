@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import ConfigurationManagement from "../components/ConfigurationManagement"
+import ConfigurationManagement from "../components/Configuration"
 
 const mapStateToProps = state => ({
     ...state

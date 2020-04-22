@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import MonitoringSystem from "../components/MonitoringSystem"
+import MonitoringSystem from "../components/Monitor"
 
 const mapStateToProps = state => ({
     ...state

@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import RuntimeManagement from "../components/RuntimeManagement"
+import RuntimeManagement from "../components/Runtime"
 
 const mapStateToProps = state => ({
     ...state
