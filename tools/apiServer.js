@@ -8,13 +8,13 @@ server.unsubscribe(middlewares);
 server.use(jsonServer.bodyParser);
 
 server.get("/", function(req, res, next){
-    res.status(200).send("OK GET");
+    // res.status(200).send("OK GET");
+    next();
 });
 
 server.post("/", function(req, res, next) {
     const error = validateRequestBody(req.body);
     if(!error){
-        res.status(200).send("OK POST");
         next();
     }else{
         res.status(400).send(error);
