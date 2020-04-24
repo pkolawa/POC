@@ -5,6 +5,9 @@ import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Paper from "@material-ui/core/Paper";
 import RefreshIcon from "@material-ui/icons/Refresh";
+import Snackbar from "@material-ui/core/Snackbar";
+import IconButton from "@material-ui/core/IconButton";
+import CloseIcon from "@material-ui/icons/Close";
 import socketIOClient from "socket.io-client";
 import Menu from "../Menu";
 const ENDPOINT = "http://127.0.0.1:4001";
@@ -42,15 +45,18 @@ class Monitor extends React.Component {
     this.state = {
       webSocketData: {},
       loading: false,
+      connectionErr: false,
     };
     this.setWebSocketData = this.setWebSocketData.bind(this);
     this.onRefresh = this.onRefresh.bind(this);
     this.bindSocketMethods = this.bindSocketMethods.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
   componentDidMount() {
     socket = socketIOClient(ENDPOINT, {
       reconnectionAttempts: 2,
     });
+    this.bindSocketMethods();
     socket.emit("start realtimedata");
     this.setWebSocketData();
     this.onRefresh();
@@ -59,12 +65,12 @@ class Monitor extends React.Component {
     socket.on("recieve realtimedata", (response) => {
       if (response) {
         this.setState({ webSocketData: response });
-        this.setState({ loading: false });
       }
+      this.setState({ loading: false });
       console.log(response);
     });
   }
-  bindSocketMethods(){
+  bindSocketMethods() {
     socket.on("error", (err) => {
       console.log("Error connecting to server", err);
     });
@@ -91,19 +97,25 @@ class Monitor extends React.Component {
 
     socket.on("connect_error", () => {
       console.log("connect_error");
-      this.setState({ loading: false });
+      this.setState({ loading: false, connectionErr: true });
     });
   }
   onRefresh() {
     socket.emit("onrefresh realtimedata");
     this.setState({ loading: true });
   }
+  handleClose(event, reason) {
+    if (reason === "clickaway") {
+      return;
+    }
+    this.setState({ connectionErr: false });
+  }
   componentWillUnmount() {
     socket.close();
   }
   render() {
     const { classes } = this.props;
-    const { USDINR = "" } = this.state.webSocketData;
+    const { USDINR = "No Data Found" } = this.state.webSocketData;
     return (
       <div className={classes.root}>
         <Menu />
@@ -130,6 +142,25 @@ class Monitor extends React.Component {
               </Typography>
             </Paper>
           </div>
+          <Snackbar
+            open={this.state.connectionErr}
+            autoHideDuration={6000}
+            onClose={this.handleClose}
+            message="Error in socket connection"
+            color="primary"
+            action={
+              <React.Fragment>
+                <IconButton
+                  size="small"
+                  aria-label="close"
+                  color="inherit"
+                  onClick={this.handleClose}
+                >
+                  <CloseIcon fontSize="small" />
+                </IconButton>
+              </React.Fragment>
+            }
+          />
         </Container>
       </div>
     );
