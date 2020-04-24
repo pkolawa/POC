@@ -3,18 +3,21 @@ import { withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
+import SettingsIcon from "@material-ui/icons/Settings";
+import TimelineIcon from "@material-ui/icons/Timeline";
+import AutorenewIcon from "@material-ui/icons/Autorenew";
 import { Link } from "react-router-dom";
 
 const styles = (theme) => ({
   root: {
-    marginTop: '30px',
+    marginTop: "30px",
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
     "& > *": {
       margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(16),
+      width: theme.spacing(24),
+      height: theme.spacing(24),
     },
     "& a": {
       textDecoration: "none",
@@ -22,8 +25,12 @@ const styles = (theme) => ({
       alignItems: "center",
       height: "inherit",
       width: "inherit",
-      justifyContent: "center"
-    }
+      justifyContent: "center",
+      flexDirection: "column",
+      "& p": {
+        fontWeight: "500"
+      }
+    },
   },
 });
 
@@ -32,17 +39,19 @@ class Dashboard extends React.Component {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <Container maxWidth="sm">
+        <Container>
           <div className={classes.root}>
             <Paper elevation={3}>
               <Link to="/configuration">
+                <SettingsIcon color="primary" />
                 <Typography align="center" color="primary">
-                  Configuration Page
+                  Configuration Management
                 </Typography>
               </Link>
             </Paper>
             <Paper elevation={3}>
               <Link to="/monitor">
+                <TimelineIcon color="primary" />
                 <Typography align="center" color="primary">
                   Monitor Page
                 </Typography>
@@ -50,8 +59,9 @@ class Dashboard extends React.Component {
             </Paper>
             <Paper elevation={3}>
               <Link to="/runtime">
+                <AutorenewIcon color="primary" />
                 <Typography align="center" color="primary">
-                  Runtime Page
+                  Runtime Management
                 </Typography>
               </Link>
             </Paper>
