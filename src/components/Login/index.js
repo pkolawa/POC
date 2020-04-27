@@ -1,16 +1,3 @@
-import React from "react";
-import Typography from "@material-ui/core/Typography";
+import Login from "./login";
 
-class Login extends React.Component {
-  render() {
-    return (
-      <div>
-        <Typography align="center" variant="h2" color="secondary">
-          Login Page
-        </Typography>
-      </div>
-    );
-  }
-}
-
-export { Login as default }
+export { Login as default };
