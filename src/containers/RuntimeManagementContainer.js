@@ -1,17 +1,42 @@
+import React from "react";
 import { connect } from "react-redux";
-import RuntimeManagement from "../components/Runtime"
+import { withStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Menu from "../components/Menu";
+import Title from "../components/Title";
 
-const mapStateToProps = state => ({
-    ...state
+const styles = (theme) => ({
+  root: {
+    display: "flex",
+    flexWrap: "wrap",
+    flexDirection: "row",
+  },
+  container: {
+    flexBasis: `calc(100% - 240px)`,
+  },
 });
 
-const mapDispatchToProps = dispatch => ({
-    
+class RuntimeManagementContainer extends React.Component {
+  render() {
+    const { classes } = this.props;
+    return (
+      <div className={classes.root}>
+        <Menu />
+        <Container className={classes.container}>
+          <Title color="secondary" title="Runtime Page" />
+        </Container>
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = (state) => ({
+  ...state,
 });
 
-const RuntimeManagementContainer = connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(RuntimeManagement);
+const mapDispatchToProps = (dispatch) => ({});
 
-export default RuntimeManagementContainer
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(withStyles(styles)(RuntimeManagementContainer));

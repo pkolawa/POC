@@ -19,14 +19,14 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: theme.spacing(1.5),
       paddingBottom: theme.spacing(1.5),
       "& p": {
-          display: "inline-block",
-          paddingLeft: theme.spacing(1)
-      }
+        display: "inline-block",
+        paddingLeft: theme.spacing(1),
+      },
     },
   },
   drawerPaper: {
     width: drawerWidth,
-    top: "64px"
+    top: "64px",
   },
 }));
 
