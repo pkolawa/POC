@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Helmet } from 'react-helmet';
-import Configuration from "../containers/ConfigurationManagementContainer";
-import Monitor from "../containers/MonitoringSystemContainer";
-import Runtime from "../containers/RuntimeManagementContainer";
-import Dashboard from "../components/Dashboard";
+import Configuration from "../pages/Configuration";
+import Monitor from "../pages/Monitor";
+import Runtime from "../pages/Runtime";
+import Dashboard from "../pages/Dashboard";
 import LoginPage from "../components/Login";
-import NotFoundPage from "../components/404.js";
+import NotFoundPage from "../pages/404.js";
 import PrivateRoutes from "./PrivateRoutes";
 import PublicRoutes from "./PublicRoutes";
 
