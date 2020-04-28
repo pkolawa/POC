@@ -1,17 +1,42 @@
+import React from "react";
 import { connect } from "react-redux";
-import ConfigurationManagement from "../components/Configuration"
+import { withStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Menu from "../components/Menu";
+import Title from "../components/Title";
 
-const mapStateToProps = state => ({
-    ...state
+const styles = (theme) => ({
+  root: {
+    display: "flex",
+    flexWrap: "wrap",
+    flexDirection: "row",
+  },
+  container: {
+    flexBasis: `calc(100% - 240px)`,
+  },
 });
 
-const mapDispatchToProps = dispatch => ({
+class ConfigurationManagementContainer extends React.Component {
+  render() {
+    const { classes } = this.props;
+    return (
+      <div className={classes.root}>
+        <Menu />
+        <Container className={classes.container}>
+          <Title color="secondary" title="Configuration Page"/>
+        </Container>
+      </div>
+    );
+  }
+}
 
+const mapStateToProps = (state) => ({
+  ...state,
 });
 
-const ConfigurationManagementContainer = connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(ConfigurationManagement);
+const mapDispatchToProps = (dispatch) => ({});
 
-export default ConfigurationManagementContainer
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(withStyles(styles)(ConfigurationManagementContainer));

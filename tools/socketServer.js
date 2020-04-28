@@ -20,7 +20,7 @@ io.on("connection", (socket) => {
       getApiData().then((data) => {
         socket.emit("recieve realtimedata", data);
       });
-    }, 1000000);
+    }, 100000);
   });
   socket.on("onrefresh realtimedata", () => {
     getApiData().then((data) => {
@@ -36,11 +36,10 @@ io.on("connection", (socket) => {
 const getApiData = () => {
   return axios
     .get(
-      "http://apilayer.net/api/live?access_key=7d2183c7f639e4cef1bd782b26638014&currencies=INR&source=USD&format=1"
+      "https://api.rootnet.in/covid19-in/stats/latest"
     )
     .then((response) => {
-      console.log(response.data.quotes);
-      return response.data.quotes;
+      return response.data.data;
     })
     .catch((error) => {
       console.log(error);
