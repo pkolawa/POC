@@ -1,1 +1,1 @@
-export { default } from './TreeNavigation';
+export { default } from './Configuration';

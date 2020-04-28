@@ -1,29 +1,16 @@
 import React from "react";
+import T from 'prop-types';
 import { withStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
-import metaData from "./meta-data-config.json";
-
 import TreeView from "@material-ui/lab/TreeView";
 import TreeItem from "@material-ui/lab/TreeItem";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
-import Menu from "../Menu";
-
-
 const styles = (theme) => ({
-    root: {
-        display: "flex",
-        flexWrap: "wrap",
-        flexDirection: "row",
-    },
-    container: {
-        flexBasis: `calc(100% - 240px)`,
-    },
+    
 });
 
-class Configuration extends React.Component {
+class TreeNavigation extends React.Component {
 
     constructor(props) {
         super(props);
@@ -32,6 +19,11 @@ class Configuration extends React.Component {
             formFields: []
         }
     }
+
+    static propTypes = {
+        treeItems: T.array.isRequired,
+        nodeClickHandler: T.func.isRequired
+	};
 
     getTreeItemsFromData = treeItems => {
         return treeItems.map(treeItemData => {
@@ -60,9 +52,8 @@ class Configuration extends React.Component {
     }
 
     showDetails = (data) => {
-        if (data && data.length > 0) {
-            this.setState({formFields: data})
-        }
+        const { nodeClickHandler } = this.props;
+        nodeClickHandler(data);
 
     }
 
@@ -78,21 +69,11 @@ class Configuration extends React.Component {
     };
 
     render() {
-        const { classes } = this.props;
-        return (
-            <div className={classes.root}>
-                <Menu />
-                <Container className={classes.container}>
-                    <Typography align="center" variant="h2" color="secondary">
-                        Configuration Page
-          </Typography>
-                    {this.dataTreeView(metaData)}
-                </Container>
+        const { treeItems } = this.props;
+        
+        return this.dataTreeView(treeItems);
 
-
-            </div>
-        );
     }
 }
 
-export default withStyles(styles)(Configuration);
+export default withStyles(styles)(TreeNavigation);
