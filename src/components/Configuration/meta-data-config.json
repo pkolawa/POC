@@ -33,6 +33,30 @@
                   "value": "8091"
                 }
               ]
+            },
+            {
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "string",
+                  "value": "local2"
+                },
+                {
+                  "name": "key",
+                  "type": "string",
+                  "value": "B"
+                },
+                {
+                  "name": "hostname",
+                  "type": "string",
+                  "value": "loalhost2"
+                },
+                {
+                  "name": "port",
+                  "type": "number",
+                  "value": "8092"
+                }
+              ]
             }
           ]
         },
