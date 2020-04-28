@@ -36,12 +36,7 @@ class FormComponent extends React.Component {
 
 
     renderForm = pageData => {
-
-        return pageData.map(item => {
-            const { fields } = item;
-
-            return this._renderFormRow(fields);
-        })
+        return pageData.map( item => this._renderFormRow(item.fields) )
     }
 
     _renderFormRow = rows => {
@@ -52,63 +47,42 @@ class FormComponent extends React.Component {
             // {...field.customProps}
             // classes={{}}
             >
-                {rows.map(item => {
-                    return this.renderSectionItems(item);
-                })}
+                {rows.map(item => this.renderSectionItems(item) )}
             </FormRow>
         );
     }
 
 
     renderSectionItems = (field) => {
-        const { type, name, value} = field;
+        const {type, name, value} = field;
         
-        let component;
         switch (type) {
 			case FORM_FIELD_TYPES.string:
-                component = this.renderTextField(name, value);
-                break;
+                return this.renderTextField(name, value);
             case FORM_FIELD_TYPES.number:
-                component = this.renderNumberField(name, value);
-                break;
+                return this.renderNumberField(name, value);
             default:
                 return false
             
         }
-
-        console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', component);
-
-        return (
-			<React.Fragment key={field.name}>
-                {component}
-            </React.Fragment>
-				
-		);
     }
 
     renderTextField = (name, value) => {
-        return <TextField type="text" label={name} value={value} />
+        return <TextField label={name} defaultValue={value} />
 
     }
 
     renderNumberField = (name, value) => {
-        return <TextField shrink type="number" label={name} value={value} />
+        return <TextField shrink type="number" label={name} defaultValue={value} />
 
     }
 
-
-
-
-
     render() {
-        const { pageData } = this.props;
-
-        return this.renderForm(pageData);
-
+        return this.renderForm(this.props.pageData)
     }
 
     componentDidCatch(error, info) {
-        console.log('>>>>>>>>>>>>..', error, info);
+        console.error('>>>>>>>>>>>>..', error, info);
     }
 }
 
