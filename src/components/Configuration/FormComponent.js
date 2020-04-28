@@ -2,6 +2,7 @@ import React from "react";
 import T from 'prop-types';
 import { withStyles } from "@material-ui/core/styles";
 import FormRow from "./../FormRow";
+import { TextField } from "@material-ui/core";
 
 const styles = (theme) => ({
 
@@ -13,9 +14,10 @@ const styles = (theme) => ({
  */
 export const FORM_FIELD_TYPES = {
 	// form fields
+    button: 'button',
+    number: 'number',
 	string: 'string', // text field
 	select: 'select', // select
-	button: 'button'	
 };
 
 class FormComponent extends React.Component {
@@ -50,11 +52,9 @@ class FormComponent extends React.Component {
             // {...field.customProps}
             // classes={{}}
             >
-                <React.Fragment>
-                    {rows.map(item => {
-                        return this.renderSectionItems(item);
-                    })}
-                </React.Fragment>
+                {rows.map(item => {
+                    return this.renderSectionItems(item);
+                })}
             </FormRow>
         );
     }
@@ -63,34 +63,38 @@ class FormComponent extends React.Component {
     renderSectionItems = (field) => {
         const { type, name, value} = field;
         
-        let Component = {};
+        let component;
         switch (type) {
 			case FORM_FIELD_TYPES.string:
-                
-                Component = this.rendertextField(name, value);
-
+                component = this.renderTextField(name, value);
                 break;
+            case FORM_FIELD_TYPES.number:
+                component = this.renderNumberField(name, value);
+                break;
+            default:
+                return false
             
         }
 
-        console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', Component);
+        console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', component);
 
         return (
-			<React.Fragment key={field.id}>
-                
-                {Component}
+			<React.Fragment key={field.name}>
+                {component}
             </React.Fragment>
 				
 		);
     }
 
-    rendertextField = (name, value) => {
-        // console.log('>>>>>>>>>>>>>>>>>..', name, value);
+    renderTextField = (name, value) => {
+        return <TextField type="text" label={name} value={value} />
 
-        return <React.Fragment>{name}</React.Fragment>
     }
 
+    renderNumberField = (name, value) => {
+        return <TextField shrink type="number" label={name} value={value} />
 
+    }
 
 
 
