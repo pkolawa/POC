@@ -69,12 +69,10 @@ class FormComponent extends React.Component {
 
     renderTextField = (name, value) => {
         return <TextField label={name} defaultValue={value} />
-
     }
 
     renderNumberField = (name, value) => {
         return <TextField shrink type="number" label={name} defaultValue={value} />
-
     }
 
     render() {
