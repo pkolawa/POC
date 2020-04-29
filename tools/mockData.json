@@ -1,5 +1,4 @@
-{"foo":["bar"], "names":{"male":["John", "Karl", "Stephan"], "female": ["Christina", "Stephanie", "Annie"]},
-"usage":[
+{"usage":[
     {
       "Timestamp": 1588146604,
       "Factor1": 0.1,
@@ -6311,5 +6310,137 @@
       "Factor1": 0.24,
       "Factor2": 0.23,
       "Factor3": 0.25
+    }],
+    "configuration":[
+    {
+      "id": "1",
+      "name": "serverpools",
+      "children": [
+        {
+          "id": "2",
+          "name": "pools",
+          "children": [
+            {
+              "id": "3",
+              "name": "LocalPool",
+              "data": [
+                {
+                  "fields": [
+                    {
+                      "name": "id",
+                      "type": "string",
+                      "value": "local1"
+                    },
+                    {
+                      "name": "key",
+                      "type": "string",
+                      "value": "A"
+                    },
+                    {
+                      "name": "hostname",
+                      "type": "string",
+                      "value": "loalhost1"
+                    },
+                    {
+                      "name": "port",
+                      "type": "number",
+                      "value": "8091"
+                    }
+                  ]
+                },
+                {
+                  "fields": [
+                    {
+                      "name": "id",
+                      "type": "string",
+                      "value": "local2"
+                    },
+                    {
+                      "name": "key",
+                      "type": "string",
+                      "value": "B"
+                    },
+                    {
+                      "name": "hostname",
+                      "type": "string",
+                      "value": "loalhost2"
+                    },
+                    {
+                      "name": "port",
+                      "type": "number",
+                      "value": "8092"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "name": "TestPool",
+              "data": [
+                {
+                  "fields": [
+                    {
+                      "name": "id",
+                      "type": "string",
+                      "value": "test1"
+                    },
+                    {
+                      "name": "key",
+                      "type": "string",
+                      "value": "A"
+                    },
+                    {
+                      "name": "hostname",
+                      "type": "string",
+                      "value": "loalhost1"
+                    },
+                    {
+                      "name": "port",
+                      "type": "number",
+                      "value": "9010"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "redisconfig",
+      "data": [
+        {
+          "fields": [
+            {
+              "name": "enabled",
+              "type": "string",
+              "value": "false"
+            },
+            {
+              "name": "mode",
+              "type": "string",
+              "value": "single"
+            },
+            {
+              "name": "hosts",
+              "type": "string",
+              "value": "localhost:6379"
+            },
+            {
+              "name": "cluster_name",
+              "type": "string",
+              "value": "abcCluster"
+            },
+            {
+              "name": "database",
+              "type": "number",
+              "value": "0"
+            }
+          ]
+        }
+      ]
     }
   ]}
