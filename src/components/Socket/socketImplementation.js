@@ -1,6 +1,5 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Paper from "@material-ui/core/Paper";
@@ -9,20 +8,11 @@ import Snackbar from "@material-ui/core/Snackbar";
 import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 import socketIOClient from "socket.io-client";
-import Menu from "../Menu";
 const ENDPOINT = "http://127.0.0.1:4001";
 
 let socket;
 
 const styles = (theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    flexDirection: "row",
-  },
-  container: {
-    flexBasis: `calc(100% - 240px)`,
-  },
   paperCont: {
     display: "flex",
     flexWrap: "wrap",
@@ -36,6 +26,9 @@ const styles = (theme) => ({
       justifyContent: "center",
       flexDirection: "column",
     },
+  },
+  countColor: {
+    color: "blue",
   },
 });
 
@@ -101,6 +94,9 @@ class Monitor extends React.Component {
     });
   }
   onRefresh() {
+    if (!socket.connected) {
+      socket.connect();
+    }
     socket.emit("onrefresh realtimedata");
     this.setState({ loading: true });
   }
@@ -115,54 +111,55 @@ class Monitor extends React.Component {
   }
   render() {
     const { classes } = this.props;
-    const { USDINR = "No Data Found" } = this.state.webSocketData;
+    const { "unofficial-summary": summary = [] } = this.state.webSocketData;
+    const activeCount = summary.length
+      ? summary.map((item) => {
+          if (item && item.active) {
+            return item.active;
+          }
+        })
+      : "No Data Found";
     return (
-      <div className={classes.root}>
-        <Menu />
-        <Container className={classes.container}>
-          <Typography align="center" variant="h2" color="secondary">
-            Monitor Page
-          </Typography>
-          <div className={classes.paperCont}>
-            <Paper elevation={3}>
-              <RefreshIcon
-                color="primary"
-                style={{ cursor: "pointer" }}
-                onClick={this.onRefresh}
-              />
-              <Typography align="center" variant="subtitle1" color="primary">
-                USD to INR
-                <Typography align="center" color="primary">
-                  Convertion Rate
-                </Typography>
+      <>
+        <div className={classes.paperCont}>
+          <Paper elevation={3}>
+            <RefreshIcon
+              color="primary"
+              style={{ cursor: "pointer" }}
+              onClick={this.onRefresh}
+            />
+            <Typography align="center" variant="subtitle1" color="primary">
+              Covid19 Active Cases
+              <Typography align="center" color="primary">
+                India
               </Typography>
-              {this.state.loading && <CircularProgress color="secondary" />}
-              <Typography align="center" color="secondary">
-                {USDINR}
-              </Typography>
-            </Paper>
-          </div>
-          <Snackbar
-            open={this.state.connectionErr}
-            autoHideDuration={6000}
-            onClose={this.handleClose}
-            message="Error in socket connection"
-            color="primary"
-            action={
-              <React.Fragment>
-                <IconButton
-                  size="small"
-                  aria-label="close"
-                  color="inherit"
-                  onClick={this.handleClose}
-                >
-                  <CloseIcon fontSize="small" />
-                </IconButton>
-              </React.Fragment>
-            }
-          />
-        </Container>
-      </div>
+            </Typography>
+            {this.state.loading && <CircularProgress color="secondary" />}
+            <Typography align="center" className={classes.countColor}>
+              {activeCount}
+            </Typography>
+          </Paper>
+        </div>
+        <Snackbar
+          open={this.state.connectionErr}
+          autoHideDuration={6000}
+          onClose={this.handleClose}
+          message="Error in socket connection"
+          color="primary"
+          action={
+            <React.Fragment>
+              <IconButton
+                size="small"
+                aria-label="close"
+                color="inherit"
+                onClick={this.handleClose}
+              >
+                <CloseIcon fontSize="small" />
+              </IconButton>
+            </React.Fragment>
+          }
+        />
+      </>
     );
   }
 }
