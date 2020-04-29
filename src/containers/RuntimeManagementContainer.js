@@ -4,6 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Menu from "../components/Menu";
 import Title from "../components/Title";
+import Chart from "../components/Chart";
 
 const styles = (theme) => ({
   root: {
@@ -24,6 +25,7 @@ class RuntimeManagementContainer extends React.Component {
         <Menu />
         <Container className={classes.container}>
           <Title color="secondary" title="Runtime Page" />
+          <Chart />
         </Container>
       </div>
     );

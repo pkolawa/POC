@@ -4,11 +4,10 @@ const path = require("path");
 const router = jsonServer.router(path.join(__dirname, "mockData.json"));
 const middlewares = jsonServer.defaults();
 
-server.unsubscribe(middlewares);
+server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 server.get("/", function(req, res, next){
-    // res.status(200).send("OK GET");
     next();
 });
 
