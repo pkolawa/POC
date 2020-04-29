@@ -15,6 +15,7 @@ const styles = (theme) => ({
     flexWrap: "wrap",
     flexDirection: "row",
   },
+  toolbar: theme.mixins.toolbar,
   container: {
     flexBasis: `calc(100% - 240px)`,
   },

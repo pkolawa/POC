@@ -1,13 +1,12 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import Paper from "@material-ui/core/Paper";
 import RefreshIcon from "@material-ui/icons/Refresh";
 import Snackbar from "@material-ui/core/Snackbar";
 import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
+import Typography from "@material-ui/core/Typography";
 import socketIOClient from "socket.io-client";
+import Card from "./cardComponent";
 const ENDPOINT = "http://127.0.0.1:4001";
 
 let socket;
@@ -27,8 +26,9 @@ const styles = (theme) => ({
       flexDirection: "column",
     },
   },
-  countColor: {
-    color: "blue",
+  titleCont: {
+    display: "flex",
+    justifyContent: "center",
   },
 });
 
@@ -111,7 +111,10 @@ class Monitor extends React.Component {
   }
   render() {
     const { classes } = this.props;
-    const { "unofficial-summary": summary = [] } = this.state.webSocketData;
+    const {
+      "unofficial-summary": summary = [],
+      regional: regions = [],
+    } = this.state.webSocketData;
     const activeCount = summary.length
       ? summary.map((item) => {
           if (item && item.active) {
@@ -121,24 +124,22 @@ class Monitor extends React.Component {
       : "No Data Found";
     return (
       <>
+        <div className={classes.titleCont}>
+          <Typography align="center" color="primary">
+            Covid19 Cases in India Statewise
+          </Typography>
+          <RefreshIcon
+            color="primary"
+            style={{ cursor: "pointer" }}
+            onClick={this.onRefresh}
+          />
+        </div>
         <div className={classes.paperCont}>
-          <Paper elevation={3}>
-            <RefreshIcon
-              color="primary"
-              style={{ cursor: "pointer" }}
-              onClick={this.onRefresh}
-            />
-            <Typography align="center" variant="subtitle1" color="primary">
-              Covid19 Active Cases
-              <Typography align="center" color="primary">
-                India
-              </Typography>
-            </Typography>
-            {this.state.loading && <CircularProgress color="secondary" />}
-            <Typography align="center" className={classes.countColor}>
-              {activeCount}
-            </Typography>
-          </Paper>
+          {regions.length > 0
+            ? regions.map((region) => {
+                return <Card region={region} loading={this.state.loading} />;
+              })
+            : null}
         </div>
         <Snackbar
           open={this.state.connectionErr}
