@@ -1,4 +1,6317 @@
-{"configuration":[
+{"usage":[
+    {
+      "Timestamp": 1588146604,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146605,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146606,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146607,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146608,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146609,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146610,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146611,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146612,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146613,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146614,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146615,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146616,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146617,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146618,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146619,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146620,
+      "Factor1": 0.1,
+      "Factor2": 0.08,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146621,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146622,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146623,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146624,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146625,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.1
+    },
+    {
+      "Timestamp": 1588146626,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146627,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146628,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146629,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146630,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146631,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146632,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146633,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146634,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146635,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146636,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146637,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146638,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146639,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146640,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146641,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146642,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146643,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146644,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146645,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146646,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146647,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146648,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146649,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146650,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146651,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146652,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146653,
+      "Factor1": 0.1,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146654,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146655,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146656,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146657,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146658,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146659,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146660,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146661,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146662,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146663,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146664,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146665,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146666,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146667,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146668,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146669,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146670,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146671,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146672,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146673,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146674,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146675,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146676,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146677,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146678,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146679,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146680,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146681,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146682,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146683,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146684,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146685,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146686,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146687,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146688,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146689,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146690,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146691,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146692,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146693,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146694,
+      "Factor1": 0.11,
+      "Factor2": 0.09,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146695,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.11
+    },
+    {
+      "Timestamp": 1588146696,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146697,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146698,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146699,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146700,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146701,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146702,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146703,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146704,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146705,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146706,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146707,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146708,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146709,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146710,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146711,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146712,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146713,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146714,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146715,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146716,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146717,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146718,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146719,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146720,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146721,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146722,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146723,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146724,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146725,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146726,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146727,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146728,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146729,
+      "Factor1": 0.11,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146730,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146731,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146732,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146733,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146734,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146735,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146736,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146737,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146738,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146739,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146740,
+      "Factor1": 0.12,
+      "Factor2": 0.1,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146741,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146742,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146743,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146744,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146745,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146746,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146747,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146748,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146749,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146750,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146751,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146752,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146753,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146754,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146755,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146756,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146757,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146758,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146759,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146760,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146761,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146762,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146763,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146764,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146765,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146766,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146767,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146768,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146769,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146770,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146771,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.12
+    },
+    {
+      "Timestamp": 1588146772,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146773,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146774,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146775,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146776,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146777,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146778,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146779,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146780,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146781,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146782,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146783,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146784,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146785,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146786,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146787,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146788,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146789,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146790,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146791,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146792,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146793,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146794,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146795,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146796,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146797,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146798,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146799,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146800,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146801,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146802,
+      "Factor1": 0.12,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146803,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146804,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146805,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146806,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146807,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146808,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146809,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146810,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146811,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146812,
+      "Factor1": 0.13,
+      "Factor2": 0.11,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146813,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146814,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146815,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146816,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146817,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146818,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146819,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146820,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146821,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146822,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146823,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146824,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146825,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146826,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146827,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146828,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146829,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146830,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146831,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146832,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146833,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146834,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146835,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146836,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146837,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146838,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146839,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146840,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146841,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.13
+    },
+    {
+      "Timestamp": 1588146842,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146843,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146844,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146845,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146846,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146847,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146848,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146849,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146850,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146851,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146852,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146853,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146854,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146855,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146856,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146857,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146858,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146859,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146860,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146861,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146862,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146863,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146864,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146865,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146866,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146867,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146868,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146869,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146870,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146871,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146872,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146873,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146874,
+      "Factor1": 0.13,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146875,
+      "Factor1": 0.14,
+      "Factor2": 0.12,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146876,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146877,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146878,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146879,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146880,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146881,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146882,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146883,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146884,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146885,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146886,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146887,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146888,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146889,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146890,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146891,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146892,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146893,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146894,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146895,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146896,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146897,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146898,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146899,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146900,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146901,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146902,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146903,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146904,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146905,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146906,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146907,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146908,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146909,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146910,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146911,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146912,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.14
+    },
+    {
+      "Timestamp": 1588146913,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146914,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146915,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146916,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146917,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146918,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146919,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146920,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146921,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146922,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146923,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146924,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146925,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146926,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146927,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146928,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146929,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146930,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146931,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146932,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146933,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146934,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146935,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146936,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146937,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146938,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146939,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146940,
+      "Factor1": 0.14,
+      "Factor2": 0.13,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146941,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146942,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146943,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146944,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146945,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146946,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146947,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146948,
+      "Factor1": 0.14,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146949,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146950,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146951,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146952,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146953,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146954,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146955,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146956,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146957,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146958,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146959,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146960,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146961,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146962,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146963,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146964,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146965,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146966,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146967,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146968,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146969,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146970,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146971,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146972,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146973,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146974,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146975,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146976,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146977,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146978,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146979,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146980,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146981,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146982,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146983,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.15
+    },
+    {
+      "Timestamp": 1588146984,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146985,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146986,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146987,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146988,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146989,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146990,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146991,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146992,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146993,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146994,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146995,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146996,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146997,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146998,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588146999,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147000,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147001,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147002,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147003,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147004,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147005,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147006,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147007,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147008,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147009,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147010,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147011,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147012,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147013,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147014,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147015,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147016,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147017,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147018,
+      "Factor1": 0.15,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147019,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147020,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147021,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147022,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147023,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147024,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147025,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147026,
+      "Factor1": 0.16,
+      "Factor2": 0.14,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147027,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147028,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147029,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147030,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147031,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147032,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147033,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147034,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147035,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147036,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147037,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147038,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147039,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147040,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147041,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147042,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147043,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147044,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147045,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147046,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147047,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147048,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147049,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147050,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147051,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147052,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147053,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.16
+    },
+    {
+      "Timestamp": 1588147054,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147055,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147056,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147057,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147058,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147059,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147060,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147061,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147062,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147063,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147064,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147065,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147066,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147067,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147068,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147069,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147070,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147071,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147072,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147073,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147074,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147075,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147076,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147077,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147078,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147079,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147080,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147081,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147082,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147083,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147084,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147085,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147086,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147087,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147088,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147089,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147090,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147091,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147092,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147093,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147094,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147095,
+      "Factor1": 0.16,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147096,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147097,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147098,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147099,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147100,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147101,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147102,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147103,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147104,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147105,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147106,
+      "Factor1": 0.17,
+      "Factor2": 0.15,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147107,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147108,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147109,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147110,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147111,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147112,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147113,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147114,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147115,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147116,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147117,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147118,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147119,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147120,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147121,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147122,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147123,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147124,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147125,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147126,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147127,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147128,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147129,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.17
+    },
+    {
+      "Timestamp": 1588147130,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147131,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147132,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147133,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147134,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147135,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147136,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147137,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147138,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147139,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147140,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147141,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147142,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147143,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147144,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147145,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147146,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147147,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147148,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147149,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147150,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147151,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147152,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147153,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147154,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147155,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147156,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147157,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147158,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147159,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147160,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147161,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147162,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147163,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147164,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147165,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147166,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147167,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147168,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147169,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147170,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147171,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147172,
+      "Factor1": 0.17,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147173,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147174,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147175,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147176,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147177,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147178,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147179,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147180,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147181,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147182,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147183,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147184,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147185,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147186,
+      "Factor1": 0.18,
+      "Factor2": 0.16,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147187,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147188,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147189,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147190,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147191,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147192,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147193,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147194,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147195,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147196,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147197,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147198,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147199,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147200,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147201,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147202,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147203,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.18
+    },
+    {
+      "Timestamp": 1588147204,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147205,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147206,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147207,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147208,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147209,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147210,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147211,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147212,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147213,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147214,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147215,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147216,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147217,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147218,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147219,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147220,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147221,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147222,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147223,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147224,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147225,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147226,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147227,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147228,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147229,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147230,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147231,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147232,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147233,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147234,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147235,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147236,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147237,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147238,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147239,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147240,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147241,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147242,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147243,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147244,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147245,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147246,
+      "Factor1": 0.18,
+      "Factor2": 0.17,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147247,
+      "Factor1": 0.18,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147248,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147249,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147250,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147251,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147252,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147253,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147254,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147255,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147256,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147257,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147258,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147259,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147260,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147261,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147262,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147263,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147264,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147265,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147266,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147267,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147268,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147269,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147270,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147271,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147272,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147273,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147274,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.19
+    },
+    {
+      "Timestamp": 1588147275,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147276,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147277,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147278,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147279,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147280,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147281,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147282,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147283,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147284,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147285,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147286,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147287,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147288,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147289,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147290,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147291,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147292,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147293,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147294,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147295,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147296,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147297,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147298,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147299,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147300,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147301,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147302,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147303,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147304,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147305,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147306,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147307,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147308,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147309,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147310,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147311,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147312,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147313,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147314,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147315,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147316,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147317,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147318,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147319,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147320,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147321,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147322,
+      "Factor1": 0.19,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147323,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147324,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147325,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147326,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147327,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147328,
+      "Factor1": 0.2,
+      "Factor2": 0.18,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147329,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147330,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147331,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147332,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147333,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147334,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147335,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147336,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147337,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147338,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147339,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147340,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147341,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147342,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147343,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147344,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147345,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147346,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147347,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147348,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147349,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.2
+    },
+    {
+      "Timestamp": 1588147350,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147351,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147352,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147353,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147354,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147355,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147356,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147357,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147358,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147359,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147360,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147361,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147362,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147363,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147364,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147365,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147366,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147367,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147368,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147369,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147370,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147371,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147372,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147373,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147374,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147375,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147376,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147377,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147378,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147379,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147380,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147381,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147382,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147383,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147384,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147385,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147386,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147387,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147388,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147389,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147390,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147391,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147392,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147393,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147394,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147395,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147396,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147397,
+      "Factor1": 0.2,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147398,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147399,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147400,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147401,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147402,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147403,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147404,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147405,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147406,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147407,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147408,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147409,
+      "Factor1": 0.21,
+      "Factor2": 0.19,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147410,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147411,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147412,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147413,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147414,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147415,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147416,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147417,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147418,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147419,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147420,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147421,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.21
+    },
+    {
+      "Timestamp": 1588147422,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147423,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147424,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147425,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147426,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147427,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147428,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147429,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147430,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147431,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147432,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147433,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147434,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147435,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147436,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147437,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147438,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147439,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147440,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147441,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147442,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147443,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147444,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147445,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147446,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147447,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147448,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147449,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147450,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147451,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147452,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147453,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147454,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147455,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147456,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147457,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147458,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147459,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147460,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147461,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147462,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147463,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147464,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147465,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147466,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147467,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147468,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147469,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147470,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147471,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147472,
+      "Factor1": 0.21,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147473,
+      "Factor1": 0.22,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147474,
+      "Factor1": 0.22,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147475,
+      "Factor1": 0.22,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147476,
+      "Factor1": 0.22,
+      "Factor2": 0.2,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147477,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147478,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147479,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147480,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147481,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147482,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147483,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147484,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147485,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147486,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147487,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147488,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147489,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147490,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147491,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147492,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.22
+    },
+    {
+      "Timestamp": 1588147493,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147494,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147495,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147496,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147497,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147498,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147499,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147500,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147501,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147502,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147503,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147504,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147505,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147506,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147507,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147508,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147509,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147510,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147511,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147512,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147513,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147514,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147515,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147516,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147517,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147518,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147519,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147520,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147521,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147522,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147523,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147524,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147525,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147526,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147527,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147528,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147529,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147530,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147531,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147532,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147533,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147534,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147535,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147536,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147537,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147538,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147539,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147540,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147541,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147542,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147543,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147544,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147545,
+      "Factor1": 0.22,
+      "Factor2": 0.21,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147546,
+      "Factor1": 0.22,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147547,
+      "Factor1": 0.22,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147548,
+      "Factor1": 0.22,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147549,
+      "Factor1": 0.22,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147550,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147551,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147552,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147553,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147554,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147555,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147556,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147557,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147558,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147559,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147560,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147561,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147562,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147563,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147564,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147565,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147566,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147567,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147568,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147569,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147570,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.23
+    },
+    {
+      "Timestamp": 1588147571,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147572,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147573,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147574,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147575,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147576,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147577,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147578,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147579,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147580,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147581,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147582,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147583,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147584,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147585,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147586,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147587,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147588,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147589,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147590,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147591,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147592,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147593,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147594,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147595,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147596,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147597,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147598,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147599,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147600,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147601,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147602,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147603,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147604,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147605,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147606,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147607,
+      "Factor1": 0.23,
+      "Factor2": 0.22,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147608,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147609,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147610,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147611,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147612,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147613,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147614,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147615,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147616,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147617,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147618,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147619,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147620,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147621,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147622,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147623,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147624,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147625,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147626,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147627,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147628,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147629,
+      "Factor1": 0.23,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147630,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147631,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147632,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147633,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147634,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147635,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147636,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147637,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147638,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147639,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147640,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147641,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147642,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147643,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147644,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147645,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147646,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147647,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147648,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147649,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.24
+    },
+    {
+      "Timestamp": 1588147650,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    },
+    {
+      "Timestamp": 1588147651,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    },
+    {
+      "Timestamp": 1588147652,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    },
+    {
+      "Timestamp": 1588147653,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    },
+    {
+      "Timestamp": 1588147654,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    },
+    {
+      "Timestamp": 1588147655,
+      "Factor1": 0.24,
+      "Factor2": 0.23,
+      "Factor3": 0.25
+    }],
+    "configuration":[
     {
       "id": "1",
       "name": "serverpools",
