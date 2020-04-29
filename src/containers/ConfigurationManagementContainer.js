@@ -19,6 +19,9 @@ const styles = (theme) => ({
   container: {
     flexBasis: `calc(100% - 240px)`,
   },
+  gridContainer: {
+    marginTop: '30px'
+  }
 });
 
 class ConfigurationManagementContainer extends React.Component {
@@ -50,6 +53,7 @@ class ConfigurationManagementContainer extends React.Component {
       <div className={classes.root}>
         <Menu />
         <Container className={classes.container}>
+        <div className={classes.toolbar} />
           <Title color="secondary" title="Configuration Page"/>
           <Grid container className={classes.gridContainer} spacing={3}>
             <Grid item xs={3}>
