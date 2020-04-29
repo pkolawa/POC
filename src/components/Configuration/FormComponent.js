@@ -63,12 +63,20 @@ class FormComponent extends React.Component {
     }
   };
 
+  handleOnChange = (fieldName, event) => {
+    
+    const newState = Object.assign({}, this.state);
+    newState[fieldName] = event.target.value;
+    this.setState(newState);
+    this.updateValidators(fieldName, event.target.value);
+  }
+
   renderTextField = (name, value) => {
-    return <TextField label={name} defaultValue={value} />;
+    return <TextField label={name} value={value} onChange={(e) => this.handleOnChange(name, e)} />;
   };
 
   renderNumberField = (name, value) => {
-    return <TextField shrink type="number" label={name} defaultValue={value} />;
+    return <TextField shrink type="number" label={name} value={value} />;
   };
 
   render() {
