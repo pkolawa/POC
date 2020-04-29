@@ -11,6 +11,7 @@ const styles = (theme) => ({
     flexWrap: "wrap",
     flexDirection: "row",
   },
+  toolbar: theme.mixins.toolbar,
   container: {
     flexBasis: `calc(100% - 240px)`,
   },
@@ -23,7 +24,8 @@ class ConfigurationManagementContainer extends React.Component {
       <div className={classes.root}>
         <Menu />
         <Container className={classes.container}>
-          <Title color="secondary" title="Configuration Page"/>
+          <div className={classes.toolbar} />
+          <Title color="secondary" title="Configuration Page" />
         </Container>
       </div>
     );
