@@ -28,7 +28,12 @@ class Configuration extends React.Component {
 
     this.state = {
       formData: [],
+      // metaData: []
     };
+  }
+
+  componentDidMount() {
+    //fetch('http://localhost:3001/configuration').then( metaData => this.setState({metaData})).catch(e => console.error(e))
   }
 
   handleNodeClick = (formData) => {
