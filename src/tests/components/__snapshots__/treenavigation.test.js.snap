@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test TreeNavigation Should Render TreeNavigation 1`] = `
+<WithStyles(ForwardRef(TreeView))
+  defaultCollapseIcon={<UNDEFINED />}
+  defaultExpandIcon={<UNDEFINED />}
+>
+  <WithStyles(ForwardRef(TreeItem))
+    key="1"
+    label={
+      <span
+        nodeId="1"
+        onClick={[Function]}
+      >
+        serverpools
+      </span>
+    }
+    nodeId="1"
+  >
+    <WithStyles(ForwardRef(TreeItem))
+      key="2"
+      label={
+        <span
+          nodeId="2"
+          onClick={[Function]}
+        >
+          pools
+        </span>
+      }
+      nodeId="2"
+    >
+      <WithStyles(ForwardRef(TreeItem))
+        key="3"
+        label={
+          <span
+            nodeId="3"
+            onClick={[Function]}
+          >
+            LocalPool
+          </span>
+        }
+        nodeId="3"
+      />
+      <WithStyles(ForwardRef(TreeItem))
+        key="4"
+        label={
+          <span
+            nodeId="4"
+            onClick={[Function]}
+          >
+            TestPool
+          </span>
+        }
+        nodeId="4"
+      />
+    </WithStyles(ForwardRef(TreeItem))>
+  </WithStyles(ForwardRef(TreeItem))>
+  <WithStyles(ForwardRef(TreeItem))
+    key="5"
+    label={
+      <span
+        nodeId="5"
+        onClick={[Function]}
+      >
+        redisconfig
+      </span>
+    }
+    nodeId="5"
+  />
+</WithStyles(ForwardRef(TreeView))>
+`;

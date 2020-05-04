@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Configuration Page 1`] = `
+<Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Runtime Management
+    </title>
+    <meta
+      content="Runtime Management"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Connect(WithStyles(RuntimeManagementContainer)) />
+</Fragment>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Socket 1`] = `
+<Fragment>
+  <div>
+    <WithStyles(ForwardRef(Paper))
+      elevation={3}
+    >
+      <RefreshIcon
+        color="primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Typography))
+        align="center"
+        color="primary"
+        variant="subtitle1"
+      >
+        Covid19 Active Cases
+        <WithStyles(ForwardRef(Typography))
+          align="center"
+          color="primary"
+        >
+          India
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(CircularProgress))
+        color="secondary"
+      />
+      <WithStyles(ForwardRef(Typography))
+        align="center"
+      >
+        No Data Found
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Paper))>
+  </div>
+  <WithStyles(ForwardRef(Snackbar))
+    action={
+      <React.Fragment>
+        <ForwardRef(WithStyles)
+          aria-label="close"
+          color="inherit"
+          onClick={[Function]}
+          size="small"
+        >
+          <UNDEFINED
+            fontSize="small"
+          />
+        </ForwardRef(WithStyles)>
+      </React.Fragment>
+    }
+    autoHideDuration={6000}
+    color="primary"
+    message="Error in socket connection"
+    onClose={[Function]}
+    open={false}
+  />
+</Fragment>
+`;

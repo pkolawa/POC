@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Configuration Page 1`] = `
+<div>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    color="danger"
+    variant="h2"
+  >
+    404 Page Not Found
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;

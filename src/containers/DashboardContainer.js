@@ -8,7 +8,7 @@ const styles = (theme) => ({
   toolbar: theme.mixins.toolbar,
 });
 
-class DashboardContainer extends React.Component {
+export class DashboardContainer extends React.Component {
   render() {
     const { classes } = this.props;
     return (

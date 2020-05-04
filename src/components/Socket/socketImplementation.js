@@ -32,7 +32,7 @@ const styles = (theme) => ({
   },
 });
 
-class Monitor extends React.Component {
+class SocketTest extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -110,11 +110,8 @@ class Monitor extends React.Component {
     socket.close();
   }
   render() {
-    const { classes } = this.props;
-    const {
-      "unofficial-summary": summary = [],
-      regional: regions = [],
-    } = this.state.webSocketData;
+    const { classes = {} } = this.props;
+    const { "unofficial-summary": summary = [] } = this.state.webSocketData;
     const activeCount = summary.length
       ? summary.map((item) => {
           if (item && item.active) {
@@ -164,5 +161,5 @@ class Monitor extends React.Component {
     );
   }
 }
-
-export default withStyles(styles)(Monitor);
+export { SocketTest };
+export default withStyles(styles)(SocketTest);

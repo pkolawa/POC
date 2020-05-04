@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Dashboard Card List 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Container))>
+    <div>
+      <WithStyles(ForwardRef(Paper))
+        elevation={3}
+      >
+        <Link
+          to="/configuration"
+        >
+          <SettingsIcon
+            color="primary"
+          />
+          <WithStyles(ForwardRef(Typography))
+            align="center"
+            color="primary"
+          >
+            Configuration Management
+          </WithStyles(ForwardRef(Typography))>
+        </Link>
+      </WithStyles(ForwardRef(Paper))>
+      <WithStyles(ForwardRef(Paper))
+        elevation={3}
+      >
+        <Link
+          to="/monitor"
+        >
+          <TimelineIcon
+            color="primary"
+          />
+          <WithStyles(ForwardRef(Typography))
+            align="center"
+            color="primary"
+          >
+            Monitor Page
+          </WithStyles(ForwardRef(Typography))>
+        </Link>
+      </WithStyles(ForwardRef(Paper))>
+      <WithStyles(ForwardRef(Paper))
+        elevation={3}
+      >
+        <Link
+          to="/runtime"
+        >
+          <AutorenewIcon
+            color="primary"
+          />
+          <WithStyles(ForwardRef(Typography))
+            align="center"
+            color="primary"
+          >
+            Runtime Management
+          </WithStyles(ForwardRef(Typography))>
+        </Link>
+      </WithStyles(ForwardRef(Paper))>
+    </div>
+  </WithStyles(ForwardRef(Container))>
+</Fragment>
+`;

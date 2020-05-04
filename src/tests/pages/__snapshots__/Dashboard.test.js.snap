@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Dashboard Page 1`] = `
+<Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Dashboard
+    </title>
+    <meta
+      content="Dashboard"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Connect(WithStyles(DashboardContainer)) />
+</Fragment>
+`;
