@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Dashboard Container 1`] = `
+<ForwardRef(Container)
+  classes={
+    Object {
+      "disableGutters": "MuiContainer-disableGutters",
+      "fixed": "MuiContainer-fixed",
+      "maxWidthLg": "MuiContainer-maxWidthLg",
+      "maxWidthMd": "MuiContainer-maxWidthMd",
+      "maxWidthSm": "MuiContainer-maxWidthSm",
+      "maxWidthXl": "MuiContainer-maxWidthXl",
+      "maxWidthXs": "MuiContainer-maxWidthXs",
+      "root": "MuiContainer-root",
+    }
+  }
+>
+  <WithStyles(Dashboard) />
+</ForwardRef(Container)>
+`;
+
+exports[`Should Render Dashboard Container with Dive 1`] = `
+<ForwardRef(Container)
+  classes={
+    Object {
+      "disableGutters": "MuiContainer-disableGutters",
+      "fixed": "MuiContainer-fixed",
+      "maxWidthLg": "MuiContainer-maxWidthLg",
+      "maxWidthMd": "MuiContainer-maxWidthMd",
+      "maxWidthSm": "MuiContainer-maxWidthSm",
+      "maxWidthXl": "MuiContainer-maxWidthXl",
+      "maxWidthXs": "MuiContainer-maxWidthXs",
+      "root": "MuiContainer-root",
+    }
+  }
+>
+  <WithStyles(Dashboard) />
+</ForwardRef(Container)>
+`;

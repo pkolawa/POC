@@ -6,7 +6,7 @@ import DashboardCardList from "../components/DashboardCardList";
 
 const styles = (theme) => ({});
 
-class DashboardContainer extends React.Component {
+export class DashboardContainer extends React.Component {
   render() {
     return (
       <Container>

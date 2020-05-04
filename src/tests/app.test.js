@@ -4,5 +4,5 @@ import App from '../components/App';
 
 test('should render app',()=>{
     const wrapper = shallow(<App/>);
-    expect(wrapper).toHaveLength(1);
+    expect(wrapper).toMatchSnapshot();
 });

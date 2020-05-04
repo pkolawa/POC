@@ -17,7 +17,7 @@ const styles = (theme) => ({
   },
 });
 
-class MonitoringSystemContainer extends React.Component {
+export class MonitoringSystemContainer extends React.Component {
   render() {
     const { classes } = this.props;
     return (
