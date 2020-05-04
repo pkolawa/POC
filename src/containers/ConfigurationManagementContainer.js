@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import TreeNavigation from "../components/TreeNaviation/TreeNavigation";
-import metaData from "./../components/TreeNaviation/meta-data-config.json";
+// import metaData from "./../components/TreeNaviation/meta-data-config.json";
 import FormComponent from "./../components/FormComponent";
 import Menu from "../components/Menu";
 import Title from "../components/Title";
@@ -31,12 +31,12 @@ class ConfigurationManagementContainer extends React.Component {
 
     this.state = {
       formData: [],
-      // metaData: []
+      metaData: []
     };
   }
 
   componentDidMount() {
-    //fetch('http://localhost:3001/configuration').then( metaData => this.setState({metaData})).catch(e => console.error(e))
+    fetch('http://localhost:3001/configuration').then(response => response.json()).then( metaData => this.setState({metaData})).catch(e => console.error(e))
   }
 
   handleNodeClick = (formData) => {
@@ -47,8 +47,9 @@ class ConfigurationManagementContainer extends React.Component {
 
   render() {
     const { classes } = this.props;
-    const { formData } = this.state;
+    const { formData, metaData } = this.state;
 
+    
     return (
       <div className={classes.root}>
         <Menu />

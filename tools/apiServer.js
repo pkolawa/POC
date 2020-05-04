@@ -4,6 +4,11 @@ const path = require("path");
 const router = jsonServer.router(path.join(__dirname, "mockData.json"));
 const middlewares = jsonServer.defaults();
 
+const  cors = require('cors')
+
+server.use(cors())
+
+
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 

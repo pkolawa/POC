@@ -68,7 +68,6 @@ class FormComponent extends React.Component {
     const newState = Object.assign({}, this.state);
     newState[fieldName] = event.target.value;
     this.setState(newState);
-    this.updateValidators(fieldName, event.target.value);
   }
 
   renderTextField = (name, value) => {
