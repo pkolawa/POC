@@ -10,12 +10,12 @@ beforeAll(() => {
 });
 
 test("Should Render Dashboard Container", () => {
-  const wrapper = shallow(<DashboardContainer />);
+  const wrapper = shallow(<DashboardContainer classes={{}}/>);
   expect(wrapper).toMatchSnapshot();
 });
 
 test("Should Render Dashboard Container with Dive", () => {
-  const wrapper = enzymeShallow(<DashboardContainer />);
+  const wrapper = enzymeShallow(<DashboardContainer classes={{}}/>);
   const wrappedComponents = wrapper.dive();
   expect(wrappedComponents).toMatchSnapshot();
 });

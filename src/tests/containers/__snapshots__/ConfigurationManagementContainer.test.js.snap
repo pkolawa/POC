@@ -4,6 +4,7 @@ exports[`Should Render Configuration Mgmt Container 1`] = `
 <div>
   <Menu />
   <WithStyles(ForwardRef(Container))>
+    <div />
     <Title
       color="secondary"
       title="Configuration Page"
@@ -18,141 +19,7 @@ exports[`Should Render Configuration Mgmt Container 1`] = `
       >
         <WithStyles(TreeNavigation)
           nodeClickHandler={[Function]}
-          treeItems={
-            Array [
-              Object {
-                "children": Array [
-                  Object {
-                    "children": Array [
-                      Object {
-                        "data": Array [
-                          Object {
-                            "fields": Array [
-                              Object {
-                                "name": "id",
-                                "type": "string",
-                                "value": "local1",
-                              },
-                              Object {
-                                "name": "key",
-                                "type": "string",
-                                "value": "A",
-                              },
-                              Object {
-                                "name": "hostname",
-                                "type": "string",
-                                "value": "loalhost1",
-                              },
-                              Object {
-                                "name": "port",
-                                "type": "number",
-                                "value": "8091",
-                              },
-                            ],
-                          },
-                          Object {
-                            "fields": Array [
-                              Object {
-                                "name": "id",
-                                "type": "string",
-                                "value": "local2",
-                              },
-                              Object {
-                                "name": "key",
-                                "type": "string",
-                                "value": "B",
-                              },
-                              Object {
-                                "name": "hostname",
-                                "type": "string",
-                                "value": "loalhost2",
-                              },
-                              Object {
-                                "name": "port",
-                                "type": "number",
-                                "value": "8092",
-                              },
-                            ],
-                          },
-                        ],
-                        "id": "3",
-                        "name": "LocalPool",
-                      },
-                      Object {
-                        "data": Array [
-                          Object {
-                            "fields": Array [
-                              Object {
-                                "name": "id",
-                                "type": "string",
-                                "value": "test1",
-                              },
-                              Object {
-                                "name": "key",
-                                "type": "string",
-                                "value": "A",
-                              },
-                              Object {
-                                "name": "hostname",
-                                "type": "string",
-                                "value": "loalhost1",
-                              },
-                              Object {
-                                "name": "port",
-                                "type": "number",
-                                "value": "9010",
-                              },
-                            ],
-                          },
-                        ],
-                        "id": "4",
-                        "name": "TestPool",
-                      },
-                    ],
-                    "id": "2",
-                    "name": "pools",
-                  },
-                ],
-                "id": "1",
-                "name": "serverpools",
-              },
-              Object {
-                "data": Array [
-                  Object {
-                    "fields": Array [
-                      Object {
-                        "name": "enabled",
-                        "type": "string",
-                        "value": "false",
-                      },
-                      Object {
-                        "name": "mode",
-                        "type": "string",
-                        "value": "single",
-                      },
-                      Object {
-                        "name": "hosts",
-                        "type": "string",
-                        "value": "localhost:6379",
-                      },
-                      Object {
-                        "name": "cluster_name",
-                        "type": "string",
-                        "value": "abcCluster",
-                      },
-                      Object {
-                        "name": "database",
-                        "type": "number",
-                        "value": "0",
-                      },
-                    ],
-                  },
-                ],
-                "id": "5",
-                "name": "redisconfig",
-              },
-            ]
-          }
+          treeItems={Array []}
         />
       </WithStyles(ForwardRef(Grid))>
       <WithStyles(ForwardRef(Grid))

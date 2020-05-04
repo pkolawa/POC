@@ -3,41 +3,23 @@
 exports[`Should Render Socket 1`] = `
 <Fragment>
   <div>
-    <WithStyles(ForwardRef(Paper))
-      elevation={3}
+    <WithStyles(ForwardRef(Typography))
+      align="center"
+      color="primary"
     >
-      <RefreshIcon
-        color="primary"
-        onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-          }
+      Covid19 Cases in India Statewise
+    </WithStyles(ForwardRef(Typography))>
+    <RefreshIcon
+      color="primary"
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
         }
-      />
-      <WithStyles(ForwardRef(Typography))
-        align="center"
-        color="primary"
-        variant="subtitle1"
-      >
-        Covid19 Active Cases
-        <WithStyles(ForwardRef(Typography))
-          align="center"
-          color="primary"
-        >
-          India
-        </WithStyles(ForwardRef(Typography))>
-      </WithStyles(ForwardRef(Typography))>
-      <WithStyles(ForwardRef(CircularProgress))
-        color="secondary"
-      />
-      <WithStyles(ForwardRef(Typography))
-        align="center"
-      >
-        No Data Found
-      </WithStyles(ForwardRef(Typography))>
-    </WithStyles(ForwardRef(Paper))>
+      }
+    />
   </div>
+  <div />
   <WithStyles(ForwardRef(Snackbar))
     action={
       <React.Fragment>
@@ -60,4 +42,22 @@ exports[`Should Render Socket 1`] = `
     open={false}
   />
 </Fragment>
+`;
+
+exports[`Should Render Socket Card 1`] = `
+<WithStyles(ForwardRef(Paper))
+  elevation={3}
+>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    color="primary"
+  >
+    Anonymous
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+  >
+    Data Not Found
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Paper))>
 `;

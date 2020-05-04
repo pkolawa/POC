@@ -111,7 +111,10 @@ class SocketTest extends React.Component {
   }
   render() {
     const { classes = {} } = this.props;
-    const { "unofficial-summary": summary = [] } = this.state.webSocketData;
+    const {
+      "unofficial-summary": summary = [],
+      regional: regions = [],
+    } = this.state.webSocketData;
     const activeCount = summary.length
       ? summary.map((item) => {
           if (item && item.active) {

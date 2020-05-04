@@ -5,7 +5,7 @@ exports[`Should Render Header 1`] = `
   className="makeStyles-root-1"
 >
   <WithStyles(ForwardRef(AppBar))
-    position="static"
+    position="fixed"
   >
     <WithStyles(ForwardRef(Toolbar))>
       <WithStyles(ForwardRef(IconButton))
