@@ -10,7 +10,7 @@ const styles = (theme) => ({
   },
 });
 
-class Card extends React.Component {
+export class Card extends React.Component {
   render() {
     const {
       classes,

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render title 1`] = `
+<WithStyles(ForwardRef(Typography))
+  align="center"
+  color="secondary"
+  variant="h2"
+>
+  App Console
+</WithStyles(ForwardRef(Typography))>
+`;

@@ -24,7 +24,7 @@ const styles = (theme) => ({
   }
 });
 
-class ConfigurationManagementContainer extends React.Component {
+export class ConfigurationManagementContainer extends React.Component {
 
   constructor(props) {
     super(props);

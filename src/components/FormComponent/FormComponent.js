@@ -43,8 +43,8 @@ class FormComponent extends React.Component {
         // classes={{}}
         gridSpacing={2}
       >
-        {rows.map((item) => {
-          return <Grid item>{this.renderSectionItems(item)}</Grid>;
+        {rows.map((item,i) => {
+          return <Grid item key={i}>{this.renderSectionItems(item)}</Grid>;
         })}
       </FormRow>
     );
@@ -86,5 +86,7 @@ class FormComponent extends React.Component {
     console.error(">>>>>>>>>>>>..", error, info);
   }
 }
+
+export {FormComponent}
 
 export default withStyles(styles)(FormComponent);

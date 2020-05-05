@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Runtime Mgmt Container 1`] = `
+<div>
+  <Menu />
+  <WithStyles(ForwardRef(Container))>
+    <div />
+    <Title
+      color="secondary"
+      title="Runtime Page"
+    />
+    <WithStyles(Chart) />
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;

@@ -18,7 +18,7 @@ const styles = (theme) => ({
   },
 });
 
-class RuntimeManagementContainer extends React.Component {
+export class RuntimeManagementContainer extends React.Component {
   render() {
     const { classes } = this.props;
     return (

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render FormRow 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <Component />
+</WithStyles(ForwardRef(Grid))>
+`;

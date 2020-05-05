@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Configuration Mgmt Container 1`] = `
+<div>
+  <Menu />
+  <WithStyles(ForwardRef(Container))>
+    <div />
+    <Title
+      color="secondary"
+      title="Configuration Page"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      >
+        <WithStyles(TreeNavigation)
+          nodeClickHandler={[Function]}
+          treeItems={Array []}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={9}
+      >
+        <WithStyles(FormComponent)
+          pageData={Array []}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;

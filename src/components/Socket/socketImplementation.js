@@ -32,7 +32,7 @@ const styles = (theme) => ({
   },
 });
 
-class Monitor extends React.Component {
+class SocketTest extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -110,7 +110,7 @@ class Monitor extends React.Component {
     socket.close();
   }
   render() {
-    const { classes } = this.props;
+    const { classes = {} } = this.props;
     const {
       "unofficial-summary": summary = [],
       regional: regions = [],
@@ -164,5 +164,5 @@ class Monitor extends React.Component {
     );
   }
 }
-
-export default withStyles(styles)(Monitor);
+export { SocketTest };
+export default withStyles(styles)(SocketTest);

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Configuration Page 1`] = `
+<div>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    color="secondary"
+    variant="h2"
+  >
+    Login Page
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;

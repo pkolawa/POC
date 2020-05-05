@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Configuration Page 1`] = `
+<Fragment>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Monitor
+    </title>
+    <meta
+      content="Monitor"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Connect(WithStyles(MonitoringSystemContainer)) />
+</Fragment>
+`;

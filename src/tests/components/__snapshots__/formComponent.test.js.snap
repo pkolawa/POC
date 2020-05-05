@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render FormComponent 1`] = `
+<WithStyles(MqFormRow)
+  gridSpacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="0"
+  >
+    <WithStyles(ForwardRef(TextField))
+      label="id"
+      onChange={[Function]}
+      value="local1"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1"
+  >
+    <WithStyles(ForwardRef(TextField))
+      label="key"
+      onChange={[Function]}
+      value="A"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="2"
+  >
+    <WithStyles(ForwardRef(TextField))
+      label="hostname"
+      onChange={[Function]}
+      value="loalhost1"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="3"
+  >
+    <WithStyles(ForwardRef(TextField))
+      label="port"
+      shrink={true}
+      type="number"
+      value="8091"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(MqFormRow)>
+`;

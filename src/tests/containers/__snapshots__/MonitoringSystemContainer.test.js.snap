@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Monitor Mgmt Container 1`] = `
+<div>
+  <Menu />
+  <WithStyles(ForwardRef(Container))>
+    <div />
+    <Title
+      color="secondary"
+      title="Monitor Page"
+    />
+    <WithStyles(SocketTest) />
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;

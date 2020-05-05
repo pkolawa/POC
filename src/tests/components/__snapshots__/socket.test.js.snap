@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Render Socket 1`] = `
+<Fragment>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      align="center"
+      color="primary"
+    >
+      Covid19 Cases in India Statewise
+    </WithStyles(ForwardRef(Typography))>
+    <RefreshIcon
+      color="primary"
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+    />
+  </div>
+  <div />
+  <WithStyles(ForwardRef(Snackbar))
+    action={
+      <React.Fragment>
+        <ForwardRef(WithStyles)
+          aria-label="close"
+          color="inherit"
+          onClick={[Function]}
+          size="small"
+        >
+          <UNDEFINED
+            fontSize="small"
+          />
+        </ForwardRef(WithStyles)>
+      </React.Fragment>
+    }
+    autoHideDuration={6000}
+    color="primary"
+    message="Error in socket connection"
+    onClose={[Function]}
+    open={false}
+  />
+</Fragment>
+`;
+
+exports[`Should Render Socket Card 1`] = `
+<WithStyles(ForwardRef(Paper))
+  elevation={3}
+>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+    color="primary"
+  >
+    Anonymous
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Typography))
+    align="center"
+  >
+    Data Not Found
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Paper))>
+`;
