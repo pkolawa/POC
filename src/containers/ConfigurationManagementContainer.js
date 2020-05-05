@@ -35,6 +35,10 @@ class ConfigurationManagementContainer extends React.Component {
     };
   }
 
+  onSubmitClick = (a, b) => {
+    console.log('>>>>>>>>.....', a, b);
+  }
+
   componentDidMount() {
     //fetch('http://localhost:3001/configuration').then( metaData => this.setState({metaData})).catch(e => console.error(e))
   }
@@ -63,7 +67,7 @@ class ConfigurationManagementContainer extends React.Component {
               />
             </Grid>
             <Grid item xs={9}>
-              <FormComponent pageData={formData} />
+              <FormComponent pageData={formData} submitHandler={this.onSubmitClick} formInitialValues={{email: '', color: 'red', firstName: '', lastName: ''}} />
             </Grid>
           </Grid>
         </Container>
