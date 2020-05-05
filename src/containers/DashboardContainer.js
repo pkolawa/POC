@@ -42,7 +42,7 @@ const Example = () => (
   <div>
       <h1>My Form</h1>
       <Formik
-          initialValues={{email: {value: '', type: 'text'}, color: {value: 'red', type: 'text'}, firstName: {value: 'Puneet', type: 'text'}, lastName: {value: '', type: 'text'}}}
+          initialValues={{fields:[{name: 'email', value: '', type: 'text'}, {name: 'color', value: 'red', type: 'text'}, {name: 'firstName', value: 'Puneet', type: 'text'}, {name: 'lastName', value: '', type: 'text'}]}}
           onSubmit={(values, actions) => {
             alert(JSON.stringify(values, null, 2));
             actions.setSubmitting(false);
@@ -76,12 +76,10 @@ const Example = () => (
           <FieldArray 
             name="test"
             render={ arrayHelpers => {
-              const fieldNames = Object.keys(props.values)
-              
               return(
                 <Form>
-                  {fieldNames.map((field) => (
-                    <Field name={field} value={props.values[field].value} type={props.values[field].type} placeholder={field} />
+                  {props.values.fields.map((field) => (
+                    <Field name={field.name} value={field.value} type={field.type} placeholder={field.name} />
                   ))}
                 </Form>
               )}
