@@ -79,7 +79,7 @@ const Example = () => (
               return(
                 <Form>
                   {props.values.fields.map((field) => (
-                    <Field name={field.name} value={field.value} type={field.type} placeholder={field.name} />
+                    <Field name={field.name} type={field.type} placeholder={field.name} />
                   ))}
                 </Form>
               )}

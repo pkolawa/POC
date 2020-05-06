@@ -40,7 +40,7 @@ class ConfigurationManagementContainer extends React.Component {
   }
 
   componentDidMount() {
-    //fetch('http://localhost:3001/configuration').then( metaData => this.setState({metaData})).catch(e => console.error(e))
+    //fetch('http://localhost:3001/configuration').then( formData => {console.dir(formData.json()); this.setState({formData})}).catch(e => console.error(e))
   }
 
   handleNodeClick = (formData) => {
@@ -52,6 +52,7 @@ class ConfigurationManagementContainer extends React.Component {
   render() {
     const { classes } = this.props;
     const { formData } = this.state;
+    console.dir(formData);
 
     return (
       <div className={classes.root}>
@@ -67,7 +68,7 @@ class ConfigurationManagementContainer extends React.Component {
               />
             </Grid>
             <Grid item xs={9}>
-              <FormComponent pageData={formData} submitHandler={this.onSubmitClick} formInitialValues={{email: '', color: 'red', firstName: '', lastName: ''}} />
+              <FormComponent pageData={{rows: formData}} submitHandler={this.onSubmitClick} />
             </Grid>
           </Grid>
         </Container>

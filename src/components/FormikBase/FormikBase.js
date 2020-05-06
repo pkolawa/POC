@@ -18,8 +18,6 @@ class FormikbBase extends React.Component {
         children: T.func.isRequired
     };
 
-
-
     render() {
         const { formInitialValues, submitHandler, children, validationSchema } = this.props;
         return (

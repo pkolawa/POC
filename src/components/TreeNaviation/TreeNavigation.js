@@ -6,9 +6,7 @@ import TreeItem from "@material-ui/lab/TreeItem";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
-const styles = (theme) => ({
-    
-});
+const styles = (theme) => ({});
 
 class TreeNavigation extends React.Component {
 
@@ -45,7 +43,6 @@ class TreeNavigation extends React.Component {
 
     renderlabel = item => {
         const { name, id, data } = item;
-
         return (
             <span onClick={() => this.showDetails(data)} nodeId={id} key={id}>{name}</span>
         )
@@ -54,7 +51,6 @@ class TreeNavigation extends React.Component {
     showDetails = (data) => {
         const { nodeClickHandler } = this.props;
         nodeClickHandler(data);
-
     }
 
     dataTreeView = (treeItems) => {

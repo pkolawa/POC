@@ -3,7 +3,7 @@ import T from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { TextField } from "@material-ui/core";
-import { Field, Form } from 'formik';
+import { Formik, Field, Form, FieldArray } from 'formik';
 import * as Yup from 'yup';
 import FormRow from "./../FormRow";
 import FormikbBase from "./../FormikBase";
@@ -35,9 +35,7 @@ class FormComponent extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      formFields: [],
-    };
+    this.state = {};
   }
 
   static propTypes = {
@@ -46,21 +44,27 @@ class FormComponent extends React.Component {
 
   renderForm = (pageData, formikProps) => {
     console.log('>>>>>>>>.........', formikProps);
-    return pageData.map((item) => this._renderFormRow(item.fields, formikProps));
+    console.dir(pageData);
+    return <FieldArray
+      render={arrayHelpers => (
+        pageData.map((item, index) => this._renderFormRow(item.fields, index, formikProps))
+      )}
+    />
   };
 
-  _renderFormRow = (rows, {errors, touched}) => {
-    
+  _renderFormRow = (rows, index, {errors, touched}) => {
+    console.dir(rows);
     return (
       <FormRow
         // header={field.header}
         // {...field.customProps}
         // classes={{}}
         gridSpacing={2}
+        key={index}
       >
-        {rows.map((item) => { 
+        {rows.map((item, index) => { 
           return (
-            <Grid item>
+            <Grid item key={index}>
               {this.renderSectionItems(item)}
               {this.renderErrorMessage(errors, touched, item.name)}
             </Grid>
@@ -109,31 +113,25 @@ class FormComponent extends React.Component {
     return <TextField shrink type="number" {...field} {...props} />;
   };
 
-  findInitialValues = () => {
-    const {pageData} = this.props;
-    console.log('>>>>>', pageData);
-  }
-
   render() {
-    const { submitHandler, formInitialValues } = this.props;
-    // const formInitialValues = this.findInitialValues();
+    const { submitHandler, pageData } = this.props;
+    console.dir(pageData);
+    
     return (
-      <React.Fragment>
-        {/* {this.renderForm(this.props.pageData)} */}
-
-        <FormikbBase
-          formInitialValues={formInitialValues}
-          submitHandler={submitHandler}
-          validationSchema={SignupSchema}
-        >
-          {(formikProps) => (
-            <Form>
-              {this.renderForm(this.props.pageData, formikProps)}
-              <button type="submit">Submit</button>
-            </Form>
-          )}
-        </FormikbBase>
-      </React.Fragment>
+      <Formik 
+        initialValues={{...pageData.rows}}
+        submitHandler={submitHandler}
+        validationSchema={SignupSchema}
+      >
+        {(formikProps) => {
+          console.dir(formikProps);
+          return(
+          <Form>
+            {this.renderForm(pageData.rows, formikProps)}
+            <button type="submit">Submit</button>
+          </Form>
+        )}}
+      </Formik>
     );
   }
 

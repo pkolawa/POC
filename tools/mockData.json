@@ -6325,6 +6325,11 @@
               "name": "LocalPool",
               "data": [
                 {
+                  "name": "id",
+                  "type": "string",
+                  "value": "local0"
+                },
+                {
                   "fields": [
                     {
                       "name": "id",

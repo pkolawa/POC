@@ -12,6 +12,13 @@
             "name": "LocalPool",
             "data": [
               {
+                "fields": [{
+                  "name": "id",
+                  "type": "string",
+                  "value": "local1"
+                }]
+              },
+              {
                 "fields": [
                   {
                     "name": "id",
