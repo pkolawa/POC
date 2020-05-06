@@ -44,7 +44,7 @@ class FormComponent extends React.Component {
 
   renderForm = (pageData, formikProps) => {
     console.log('>>>>>>>>.........', formikProps);
-    console.dir(pageData);
+    // console.dir(pageData);
     return <FieldArray
       render={arrayHelpers => (
         pageData.map((item, index) => this._renderFormRow(item.fields, index, formikProps))
@@ -53,7 +53,7 @@ class FormComponent extends React.Component {
   };
 
   _renderFormRow = (rows, index, {errors, touched}) => {
-    console.dir(rows);
+    // console.dir(rows);
     return (
       <FormRow
         // header={field.header}
@@ -115,11 +115,12 @@ class FormComponent extends React.Component {
 
   render() {
     const { submitHandler, pageData } = this.props;
-    console.dir(pageData);
+    console.log('-----------------', pageData);
     
     return (
       <Formik 
-        initialValues={{...pageData.rows}}
+        enableReinitialize
+        initialValues={pageData}
         submitHandler={submitHandler}
         validationSchema={SignupSchema}
       >

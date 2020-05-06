@@ -11,7 +11,7 @@ const styles = {
 	
 };
 
-class MqFormRow extends React.PureComponent {
+class FormRow extends React.PureComponent {
 	static propTypes = {
 		children: T.func.isRequired,
 		gridSpacing: T.number,
@@ -97,4 +97,4 @@ class MqFormRow extends React.PureComponent {
 	}
 }
 
-export default withStyles(styles)(MqFormRow);
+export default withStyles(styles)(FormRow);
