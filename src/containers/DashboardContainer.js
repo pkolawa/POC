@@ -1,11 +1,12 @@
 import React from "react";
 import { connect } from "react-redux";
 import { withStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
+import { Grid, Container } from "@material-ui/core";
 import DashboardCardList from "../components/DashboardCardList";
+import Widget from "../components/Widget";
+import Title from "../components/Title";
 
 const styles = (theme) => ({
-  toolbar: theme.mixins.toolbar,
 });
 
 export class DashboardContainer extends React.Component {
@@ -13,8 +14,20 @@ export class DashboardContainer extends React.Component {
     const { classes } = this.props;
     return (
       <Container>
-        <div className={classes.toolbar} />
-        <DashboardCardList />
+        <Title color="secondary" title="Dashboard"/>
+        <Grid container spacing={2}>
+          <Grid item sm={6} md={4}>
+            <Widget title="Server Status">
+              ToBe Done
+            </Widget>
+          </Grid>
+          <Grid item sm={6} md={4}>
+            <Widget title="Health">ToBe Done</Widget>
+          </Grid>
+          <Grid item sm={6} md={4}>
+            <Widget title="Proxy">ToBe Done</Widget>
+          </Grid>
+        </Grid>
       </Container>
     );
   }

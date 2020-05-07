@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   headerMenu: {
-    marginTop: theme.spacing(7),
+    marginTop: theme.spacing(6),
   },
   headerMenuItem: {
     "&:hover, &:focus": {

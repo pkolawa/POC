@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import TreeNavigation from "../components/TreeNaviation/TreeNavigation";
 // import metaData from "./../components/TreeNaviation/meta-data-config.json";
 import FormComponent from "./../components/FormComponent";
-import Menu from "../components/Menu";
 import Title from "../components/Title";
 
 const styles = (theme) => ({
