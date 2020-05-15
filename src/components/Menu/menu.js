@@ -8,6 +8,7 @@ import ListItem from "@material-ui/core/ListItem";
 import SettingsIcon from "@material-ui/icons/Settings";
 import TimelineIcon from "@material-ui/icons/Timeline";
 import AutorenewIcon from "@material-ui/icons/Autorenew";
+import HomeIcon from "@material-ui/icons/Home";
 import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
@@ -37,18 +38,21 @@ export default function Menu() {
   const drawer = (
     <div>
       <List>
-        {["Configuration", "Monitor", "Runtime"].map((text, index) => (
-          <ListItem button key={text}>
-            <Link to={`/${text.toLowerCase()}`}>
-              {text === "Configuration" && <SettingsIcon color="primary" />}
-              {text === "Monitor" && <TimelineIcon color="primary" />}
-              {text === "Runtime" && <AutorenewIcon color="primary" />}
-              <Typography align="center" color="primary">
-                {text}
-              </Typography>
-            </Link>
-          </ListItem>
-        ))}
+        {["Dashboard", "Configuration", "Monitor", "Runtime"].map(
+          (text, index) => (
+            <ListItem button key={text}>
+              <Link to={`/app/${text.toLowerCase()}`}>
+                {text === "Dashboard" && <HomeIcon color="primary" />}
+                {text === "Configuration" && <SettingsIcon color="primary" />}
+                {text === "Monitor" && <TimelineIcon color="primary" />}
+                {text === "Runtime" && <AutorenewIcon color="primary" />}
+                <Typography align="center" color="primary">
+                  {text}
+                </Typography>
+              </Link>
+            </ListItem>
+          )
+        )}
       </List>
     </div>
   );

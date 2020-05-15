@@ -42,7 +42,7 @@ class Dashboard extends React.Component {
         <Container>
           <div className={classes.root}>
             <Paper elevation={3}>
-              <Link to="/configuration">
+              <Link to="/app/configuration">
                 <SettingsIcon color="primary" />
                 <Typography align="center" color="primary">
                   Configuration Management
@@ -50,7 +50,7 @@ class Dashboard extends React.Component {
               </Link>
             </Paper>
             <Paper elevation={3}>
-              <Link to="/monitor">
+              <Link to="/app/monitor">
                 <TimelineIcon color="primary" />
                 <Typography align="center" color="primary">
                   Monitor Page
@@ -58,7 +58,7 @@ class Dashboard extends React.Component {
               </Link>
             </Paper>
             <Paper elevation={3}>
-              <Link to="/runtime">
+              <Link to="/app/runtime">
                 <AutorenewIcon color="primary" />
                 <Typography align="center" color="primary">
                   Runtime Management

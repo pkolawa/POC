@@ -13,11 +13,10 @@ export const PrivateRoutes = ({
     component={(props) =>
       isAuthenticated ? (
         <>
-          <Header />
           <Component {...props} />
         </>
       ) : (
-        <Redirect to="/" />
+        <Redirect to="/login" />
       )
     }
   />
