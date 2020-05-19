@@ -43,8 +43,7 @@ class FormComponent extends React.Component {
   };
 
   renderForm = (pageData, formikProps) => {
-    console.log('>>>>>>>>.........', formikProps);
-    // console.dir(pageData);
+   
     return <FieldArray
       render={arrayHelpers => (
         pageData.map((item, index) => this._renderFormRow(item.fields, index, formikProps))
@@ -52,20 +51,17 @@ class FormComponent extends React.Component {
     />
   };
 
-  _renderFormRow = (rows, index, {errors, touched}) => {
-    // console.dir(rows);
+  _renderFormRow = (rows, index, {errors, touched, values}) => {
+    console.dir(values);
     return (
       <FormRow
-        // header={field.header}
-        // {...field.customProps}
-        // classes={{}}
         gridSpacing={2}
         key={index}
       >
         {rows.map((item, index) => { 
           return (
             <Grid item key={index}>
-              {this.renderSectionItems(item)}
+              {this.renderSectionItems(item, index)}
               {this.renderErrorMessage(errors, touched, item.name)}
             </Grid>
           );
@@ -83,12 +79,13 @@ class FormComponent extends React.Component {
     )
   }
 
-  renderSectionItems = (field) => {
+  renderSectionItems = (field, index) => {
+    
     const { type, name } = field;
 
     switch (type) {
       case FORM_FIELD_TYPES.string:
-        return <Field name={name} placeholder={name} component={this.renderTextField} />
+        return <Field name={`${name}[1]`} placeholder={name} component={this.renderTextField} />
       case FORM_FIELD_TYPES.number:
         return <Field name={name} placeholder={name} component={this.renderNumberField} />
       default:
@@ -115,12 +112,13 @@ class FormComponent extends React.Component {
 
   render() {
     const { submitHandler, pageData } = this.props;
-    console.log('-----------------', pageData);
     
+let test = [ { id: "1", key: "key1", hostname: "hostname1", port: "port1" }, { id: "2", key: "key2", hostname: "hostname2", port: "port2" }, { id: "3", key: "key3", hostname: "hostname3", port: "port3" } ];
+
     return (
       <Formik 
         enableReinitialize
-        initialValues={pageData}
+        initialValues={test}
         submitHandler={submitHandler}
         validationSchema={SignupSchema}
       >
